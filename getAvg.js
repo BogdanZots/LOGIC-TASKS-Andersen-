@@ -1,5 +1,5 @@
 const getAvg = function () {
-    if (valuesArray instanceof Array) {
+    if (valuesArray.length != 0) {
         let avg = valuesArray.reduce(function (a, b) {
             if (typeof a == 'number' && typeof b == 'number')
                 return (a + b) / valuesArray.length
