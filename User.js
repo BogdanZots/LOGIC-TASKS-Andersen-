@@ -6,7 +6,7 @@ function User(name, surname, age) {
     this.name = name;
     this.age = age;
     this.print = function () {
-        if (!typeof name === 'string' && typeof surname === 'string' && typeof age === 'number') return
+        if (!typeof name === 'string' && !typeof surname === 'string' && !typeof age === 'number') return
         console.log(`Name:${name},last name:${surname},age:${age}`)
     }
 
