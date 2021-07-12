@@ -9,7 +9,7 @@ const sarah = {
 }
 
 function printJobName(user) {
-    let {name,job} = user
+    let {name} = user
     console.log(name);
 }
 
